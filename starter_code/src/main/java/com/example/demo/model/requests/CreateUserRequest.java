@@ -35,4 +35,13 @@ public class CreateUserRequest {
 	public String getConfirmPassword() {
 		return confirmPassword;
 	}
+
+	@Override
+	public String toString() {
+		return "CreateUserRequest{" +
+				"username='" + username + '\'' +
+				", password='" + password + '\'' +
+				", confirmPassword='" + confirmPassword + '\'' +
+				'}';
+	}
 }
